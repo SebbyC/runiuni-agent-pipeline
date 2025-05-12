@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-03-31T12:44:17.538782",
+  "urls_processed": 1,
+  "sources_file": null,
+  "total_events_extracted": 1,
+  "total_events_edited": 1,
+  "total_events_enhanced": 1,
+  "total_events_valid": 1,
+  "total_events_posted": 1,
+  "total_events_failed": 0,
+  "dry_run": false,
+  "max_events": 5,
+  "pipeline_results": {
+    "urls": [
+      "https://www.stellarspectrumsociety.com/event-details/stellar-spectrum-society-presents-izzi"
+    ],
+    "sources_file": null,
+    "max_events": 5,
+    "dry_run": false,
+    "start_time": "2025-03-31T12:44:07.113244",
+    "end_time": "2025-03-31T12:44:17.538782",
+    "duration_seconds": 10.425538,
+    "events_extracted": 1,
+    "events_with_images": 1,
+    "events_enhanced": 1,
+    "events_edited": 1,
+    "events_valid": 1,
+    "events_posted": 1,
+    "events_failed": 0
+  }
+}

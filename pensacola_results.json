@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-03-28T12:46:56.585312",
+  "total_locations": 1,
+  "total_events_found": 5,
+  "total_events_valid": 5,
+  "total_events_posted": 5,
+  "total_events_failed": 0,
+  "dry_run": false,
+  "max_events_per_location": 5,
+  "location_results": [
+    {
+      "location": "Jacksonville, FL",
+      "max_events": 5,
+      "dry_run": false,
+      "start_time": "2025-03-28T12:46:15.908592",
+      "end_time": "2025-03-28T12:46:56.585312",
+      "duration_seconds": 40.67672,
+      "events_found": 5,
+      "events_with_images": 5,
+      "events_enhanced": 5,
+      "events_valid": 5,
+      "events_posted": 5,
+      "events_failed": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Process a single URL
+python execute_url_pipeline.py --urls "https://www.stellarspectrumsociety.com/event-details/yewz"
+
+
+(venv) PS D:\Runiuni\Runiuni Agents\EventPipelineCreator\event_pipeline> python execute_url_pipeline.py 
+--api-url "https://api.runi-uni.com" 
+--urls "https://www.stellarspectrumsociety.com/event-details/stellar-spectrum-society-presents-izzi"
+
+
+# Process multiple URLs
+python execute_url_pipeline.py --urls "https://example.com/event1" "https://example.com/event2"
+
+# Process URLs from a sources file
+python execute_url_pipeline.py --sources-file "event_sources.json"
+
+# Dry run mode (don't post to API)
+python execute_url_pipeline.py --urls "https://example.com/event" --dry-run
+
+# Save intermediate files and specify output file
+python execute_url_pipeline.py --urls "https://example.com/event" --save-files --output "my_results.json"
+
+# Limit the number of events processed
+python execute_url_pipeline.py --urls "https://example.com/event" --max-events 5
+
+# Specify API credentials
+python execute_url_pipeline.py --urls "https://example.com/event" --username "myuser" --password "mypass"
